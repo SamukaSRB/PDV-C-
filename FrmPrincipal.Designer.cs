@@ -93,6 +93,7 @@
             this.MenuClientes.Name = "MenuClientes";
             this.MenuClientes.Size = new System.Drawing.Size(180, 22);
             this.MenuClientes.Text = "Clientes";
+            this.MenuClientes.Click += new System.EventHandler(this.MenuClientes_Click);
             // 
             // MenuUsuarios
             // 
@@ -112,6 +113,7 @@
             this.MenuFornecedor.Name = "MenuFornecedor";
             this.MenuFornecedor.Size = new System.Drawing.Size(180, 22);
             this.MenuFornecedor.Text = "Fornecedor";
+            this.MenuFornecedor.Click += new System.EventHandler(this.MenuFornecedor_Click);
             // 
             // MenuProdutos
             // 

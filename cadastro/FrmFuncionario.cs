@@ -42,9 +42,6 @@ namespace PDV.cadastro
             listarCargos();
             alterouImagem = "nao";
             cbCargo.Text = "Selecione um cargo";
-
-
-
         }
 
         public void Lista()
@@ -124,12 +121,9 @@ namespace PDV.cadastro
 
             cmd.ExecuteNonQuery();
             con.fecharConexao();
-            //Funcionario func = new Funcionario(txtNome.Text, txtCpf.Text.Trim(), txtTel.Text.Trim(), cbCargo.Text.Trim(), txtEnd.Text.Trim(), img().ToString());
-            //Conexao.AddFuncionario(func);
+            MessageBox.Show("Registro salvo com sucesso", "Cadastro de funcionario", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Clear();
             listar();
-
-
 
 
         }
@@ -265,7 +259,6 @@ namespace PDV.cadastro
             desabilitarCampos();
             LimparFoto();
             Clear();
-
 
         }
 

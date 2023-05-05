@@ -33,20 +33,20 @@
             this.lblCpf = new System.Windows.Forms.Label();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.lblEndereco = new System.Windows.Forms.Label();
-            this.lblCargo = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.cbCargo = new System.Windows.Forms.ComboBox();
             this.grid = new System.Windows.Forms.DataGridView();
             this.btnNovo = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnFoto = new System.Windows.Forms.Button();
-            this.image = new System.Windows.Forms.PictureBox();
             this.txtCpf = new System.Windows.Forms.MaskedTextBox();
             this.txtTel = new System.Windows.Forms.MaskedTextBox();
             this.txtEnd = new System.Windows.Forms.TextBox();
             this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnFoto = new System.Windows.Forms.Button();
+            this.image = new System.Windows.Forms.PictureBox();
+            this.lblCargo = new System.Windows.Forms.Label();
+            this.cbCargo = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.grid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.image)).BeginInit();
             this.SuspendLayout();
@@ -87,31 +87,12 @@
             this.lblEndereco.TabIndex = 3;
             this.lblEndereco.Text = "Endereço";
             // 
-            // lblCargo
-            // 
-            this.lblCargo.AutoSize = true;
-            this.lblCargo.Location = new System.Drawing.Point(383, 48);
-            this.lblCargo.Name = "lblCargo";
-            this.lblCargo.Size = new System.Drawing.Size(35, 13);
-            this.lblCargo.TabIndex = 4;
-            this.lblCargo.Text = "Cargo";
-            // 
             // txtNome
             // 
             this.txtNome.Location = new System.Drawing.Point(11, 25);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(333, 20);
             this.txtNome.TabIndex = 6;
-            // 
-            // cbCargo
-            // 
-            this.cbCargo.FormattingEnabled = true;
-            this.cbCargo.Items.AddRange(new object[] {
-            "Escolha um cargo"});
-            this.cbCargo.Location = new System.Drawing.Point(386, 64);
-            this.cbCargo.Name = "cbCargo";
-            this.cbCargo.Size = new System.Drawing.Size(173, 21);
-            this.cbCargo.TabIndex = 10;
             // 
             // grid
             // 
@@ -166,26 +147,6 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // btnFoto
-            // 
-            this.btnFoto.Location = new System.Drawing.Point(633, 145);
-            this.btnFoto.Name = "btnFoto";
-            this.btnFoto.Size = new System.Drawing.Size(189, 23);
-            this.btnFoto.TabIndex = 17;
-            this.btnFoto.Text = "Carregar Foto";
-            this.btnFoto.UseVisualStyleBackColor = true;
-            this.btnFoto.Click += new System.EventHandler(this.btnFoto_Click);
-            // 
-            // image
-            // 
-            this.image.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.image.Location = new System.Drawing.Point(633, 12);
-            this.image.Name = "image";
-            this.image.Size = new System.Drawing.Size(189, 127);
-            this.image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.image.TabIndex = 11;
-            this.image.TabStop = false;
-            // 
             // txtCpf
             // 
             this.txtCpf.Location = new System.Drawing.Point(386, 25);
@@ -218,6 +179,45 @@
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
+            // 
+            // btnFoto
+            // 
+            this.btnFoto.Location = new System.Drawing.Point(633, 145);
+            this.btnFoto.Name = "btnFoto";
+            this.btnFoto.Size = new System.Drawing.Size(189, 23);
+            this.btnFoto.TabIndex = 17;
+            this.btnFoto.Text = "Carregar Foto";
+            this.btnFoto.UseVisualStyleBackColor = true;
+            this.btnFoto.Click += new System.EventHandler(this.btnFoto_Click);
+            // 
+            // image
+            // 
+            this.image.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.image.Location = new System.Drawing.Point(633, 12);
+            this.image.Name = "image";
+            this.image.Size = new System.Drawing.Size(189, 127);
+            this.image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.image.TabIndex = 11;
+            this.image.TabStop = false;
+            // 
+            // lblCargo
+            // 
+            this.lblCargo.AutoSize = true;
+            this.lblCargo.Location = new System.Drawing.Point(383, 48);
+            this.lblCargo.Name = "lblCargo";
+            this.lblCargo.Size = new System.Drawing.Size(35, 13);
+            this.lblCargo.TabIndex = 4;
+            this.lblCargo.Text = "Cargo";
+            // 
+            // cbCargo
+            // 
+            this.cbCargo.FormattingEnabled = true;
+            this.cbCargo.Items.AddRange(new object[] {
+            "Escolha um cargo"});
+            this.cbCargo.Location = new System.Drawing.Point(386, 64);
+            this.cbCargo.Name = "cbCargo";
+            this.cbCargo.Size = new System.Drawing.Size(173, 21);
+            this.cbCargo.TabIndex = 10;
             // 
             // FrmFuncionario
             // 
@@ -261,19 +261,19 @@
         private System.Windows.Forms.Label lblCpf;
         private System.Windows.Forms.Label lblTelefone;
         private System.Windows.Forms.Label lblEndereco;
-        private System.Windows.Forms.Label lblCargo;
         private System.Windows.Forms.TextBox txtNome;
-        private System.Windows.Forms.ComboBox cbCargo;
-        private System.Windows.Forms.PictureBox image;
         private System.Windows.Forms.DataGridView grid;
         private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Button btnFoto;
         private System.Windows.Forms.MaskedTextBox txtCpf;
         private System.Windows.Forms.MaskedTextBox txtTel;
         private System.Windows.Forms.TextBox txtEnd;
         private System.Windows.Forms.Button btnExcluir;
+        private System.Windows.Forms.Button btnFoto;
+        private System.Windows.Forms.PictureBox image;
+        private System.Windows.Forms.Label lblCargo;
+        private System.Windows.Forms.ComboBox cbCargo;
     }
 }

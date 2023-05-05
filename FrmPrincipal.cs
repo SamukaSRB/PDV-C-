@@ -38,6 +38,18 @@ namespace PDV
             cadastro.FrmCargo frm = new cadastro.FrmCargo();
             frm.ShowDialog();
         }
+
+        private void MenuClientes_Click(object sender, EventArgs e)
+        {
+            cadastro.FrmCliente frm = new cadastro.FrmCliente();
+            frm.ShowDialog();
+        }
+
+        private void MenuFornecedor_Click(object sender, EventArgs e)
+        {
+            cadastro.FrmFornecedor frm = new cadastro.FrmFornecedor();
+            frm.ShowDialog();
+        }
     }
 }
     
