@@ -127,13 +127,14 @@
             // MenuProduto
             // 
             this.MenuProduto.Name = "MenuProduto";
-            this.MenuProduto.Size = new System.Drawing.Size(117, 22);
+            this.MenuProduto.Size = new System.Drawing.Size(180, 22);
             this.MenuProduto.Text = "Produto";
+            this.MenuProduto.Click += new System.EventHandler(this.MenuProduto_Click);
             // 
             // MenuEstoque
             // 
             this.MenuEstoque.Name = "MenuEstoque";
-            this.MenuEstoque.Size = new System.Drawing.Size(117, 22);
+            this.MenuEstoque.Size = new System.Drawing.Size(180, 22);
             this.MenuEstoque.Text = "Estoque";
             // 
             // MenuMovimentacoes

@@ -132,36 +132,44 @@
             // lblEndereco
             // 
             this.lblEndereco.AutoSize = true;
+            this.lblEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEndereco.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblEndereco.Location = new System.Drawing.Point(12, 52);
             this.lblEndereco.Name = "lblEndereco";
-            this.lblEndereco.Size = new System.Drawing.Size(53, 13);
+            this.lblEndereco.Size = new System.Drawing.Size(61, 13);
             this.lblEndereco.TabIndex = 24;
             this.lblEndereco.Text = "Endereço";
             // 
             // lblTelefone
             // 
             this.lblTelefone.AutoSize = true;
+            this.lblTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefone.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblTelefone.Location = new System.Drawing.Point(385, 52);
             this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(49, 13);
+            this.lblTelefone.Size = new System.Drawing.Size(57, 13);
             this.lblTelefone.TabIndex = 23;
             this.lblTelefone.Text = "Telefone";
             // 
             // lblCpf
             // 
             this.lblCpf.AutoSize = true;
+            this.lblCpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCpf.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblCpf.Location = new System.Drawing.Point(384, 10);
             this.lblCpf.Name = "lblCpf";
-            this.lblCpf.Size = new System.Drawing.Size(28, 13);
+            this.lblCpf.Size = new System.Drawing.Size(32, 13);
             this.lblCpf.TabIndex = 22;
             this.lblCpf.Text = "Cnpj";
             // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
+            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblNome.Location = new System.Drawing.Point(9, 10);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(35, 13);
+            this.lblNome.Size = new System.Drawing.Size(39, 13);
             this.lblNome.TabIndex = 21;
             this.lblNome.Text = "Nome";
             // 
@@ -190,10 +198,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gainsboro;
             this.label1.Location = new System.Drawing.Point(624, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 60;
             this.label1.Text = "Buscar";
             // 

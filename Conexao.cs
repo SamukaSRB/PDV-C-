@@ -12,8 +12,9 @@ namespace PDV
 {
     class Conexao
     {
-        public string conec = "Server=localhost;port=3306;username=root;password=samuka.201232;database=pdv";
-
+        //public string conec = "Server=localhost;port=3306;username=root;password=samuka.201232;database=pdv";
+        //Servidor base
+        public string conec = "Server=containers-us-west-85.railway.app;port=7787;username=root;password=eISMaMakZKyK656xhmdp;database=pdv";
         public MySqlConnection con = null;
 
         public void AbrirConexao()

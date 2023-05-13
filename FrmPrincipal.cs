@@ -50,6 +50,12 @@ namespace PDV
             cadastro.FrmFornecedor frm = new cadastro.FrmFornecedor();
             frm.ShowDialog();
         }
+
+        private void MenuProduto_Click(object sender, EventArgs e)
+        {
+            cadastro.FrmProduto frm = new cadastro.FrmProduto();
+            frm.ShowDialog();
+        }
     }
 }
     
