@@ -26,7 +26,9 @@ C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\
 C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.csproj.SuggestedBindingRedirects.cache
 C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.cadastro.FrmCargo.resources
 C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.cadastro.FrmCliente.resources
+C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.cadastro.FrmFornecedor.resources
 C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.cadastro.FrmFuncionario.resources
+C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.cadastro.FrmProduto.resources
 C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.frmPrincipal.resources
 C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.Properties.Resources.resources
 C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.csproj.GenerateResource.cache
@@ -34,4 +36,3 @@ C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\
 C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.csproj.CopyComplete
 C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.exe
 C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.pdb
-C:\Users\samuk\OneDrive\Área de Trabalho\Gestão de Projetos\PDV\PDV\obj\Debug\PDV.cadastro.FrmFornecedor.resources
